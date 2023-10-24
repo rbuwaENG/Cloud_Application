@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "17918511092",
+    "project_id": "knowledgekubeauth",
+    "storage_bucket": "knowledgekubeauth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:17918511092:android:7b840184d44ab0557a9ba1",
+        "android_client_info": {
+          "package_name": "com.example.knowledge_kube"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKFBgCt1It0UqnBwwRvkXYHfV6nTTmjCs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
