@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:knowledge_kube/pages/login_page.dart';
+import 'package:knowledge_kube/pages/auth_page.dart';
 import 'package:knowledge_kube/pages/scan_page.dart';
 import 'package:knowledge_kube/pages/user_page.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -26,7 +26,7 @@ class _homePageState extends State<homePage> {
   Future logout() async {
     await FirebaseAuth.instance.signOut();
     Navigator.pushReplacement(
-        context, MaterialPageRoute(builder: (context) => loginPage()));
+        context, MaterialPageRoute(builder: (context) => AuthPage()));
   }
 
   final List<Widget> _pages = [
@@ -103,8 +103,8 @@ class _homePageState extends State<homePage> {
                       ),
                     ),
                   ),
-               
-                 Padding(
+
+                  Padding(
                     padding: const EdgeInsets.only(left: 35.0),
                     child: ListTile(
                       leading: Icon(
@@ -117,8 +117,8 @@ class _homePageState extends State<homePage> {
                       ),
                     ),
                   ),
-               
-                 Padding(
+
+                  Padding(
                     padding: const EdgeInsets.only(left: 35.0),
                     child: ListTile(
                       leading: Icon(
@@ -132,8 +132,7 @@ class _homePageState extends State<homePage> {
                     ),
                   ),
 
-
-                 Padding(
+                  Padding(
                     padding: const EdgeInsets.only(left: 35.0),
                     child: ListTile(
                       leading: Icon(
@@ -146,8 +145,6 @@ class _homePageState extends State<homePage> {
                       ),
                     ),
                   ),
-               
-               
                 ],
               ),
               Padding(

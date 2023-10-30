@@ -3,7 +3,8 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
 class loginPage extends StatefulWidget {
-  loginPage({super.key});
+  final VoidCallback showRegisterPage;
+  loginPage({Key? key, required this.showRegisterPage}) : super(key: key);
 
   @override
   State<loginPage> createState() => _loginPageState();
@@ -155,11 +156,14 @@ class _loginPageState extends State<loginPage> {
                     ),
                     const SizedBox(width: 10), //for spacing
 
-                    Text(
-                      'Register me',
-                      style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        color: Color.fromARGB(255, 0, 73, 133),
+                    GestureDetector(
+                      onTap: widget.showRegisterPage,
+                      child: Text(
+                        'Register me',
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          color: Color.fromARGB(255, 0, 73, 133),
+                        ),
                       ),
                     ),
                   ],
