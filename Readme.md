@@ -1,4 +1,31 @@
-#Introduction 
+
+```                                                                                                                                                      
+       ,--.                                                                                                                                           
+   ,--/  /|                                      ,--,                                                           ,-.                                   
+,---,': / '                                    ,--.'|                   ,---,                               ,--/ /|                ,---,              
+:   : '/ /       ,---,    ,---.           .---.|  | :                 ,---.'|                             ,--. :/ |          ,--,,---.'|              
+|   '   ,    ,-+-. /  |  '   ,'\         /. ./|:  : '                 |   | :  ,----._,.                  :  : ' /         ,'_ /||   | :              
+'   |  /    ,--.'|'   | /   /   |     .-'-. ' ||  ' |      ,---.      |   | | /   /  ' /   ,---.          |  '  /     .--. |  | ::   : :      ,---.   
+|   ;  ;   |   |  ,"' |.   ; ,. :    /___/ \: |'  | |     /     \   ,--.__| ||   :     |  /     \         '  |  :   ,'_ /| :  . |:     |,-.  /     \  
+:   '   \  |   | /  | |'   | |: : .-'.. '   ' .|  | :    /    /  | /   ,'   ||   | .\  . /    /  |        |  |   \  |  ' | |  . .|   : '  | /    /  | 
+|   |    ' |   | |  | |'   | .; :/___/ \:     ''  : |__ .    ' / |.   '  /  |.   ; ';  |.    ' / |        '  : |. \ |  | ' |  | ||   |  / :.    ' / | 
+'   : |.  \|   | |  |/ |   :    |.   \  ' .\   |  | '.'|'   ;   /|'   ; |:  |'   .   . |'   ;   /|        |  | ' \ \:  | : ;  ; |'   : |: |'   ;   /| 
+|   | '_\.'|   | |--'   \   \  /  \   \   ' \ |;  :    ;'   |  / ||   | '/  ' `---`-'| |'   |  / |        '  : |--' '  :  `--'   \   | '/ :'   |  / | 
+'   : |    |   |/        `----'    \   \  |--" |  ,   / |   :    ||   :    :| .'__/\_: ||   :    |        ;  |,'    :  ,      .-./   :    ||   :    | 
+;   |,'    '---'                    \   \ |     ---`-'   \   \  /  \   \  /   |   :    : \   \  /         '--'       `--`----'   /    \  /  \   \  /  
+'---'                                '---"                `----'    `----'     \   \  /   `----'                                 `-'----'    `----'   
+                                                                                `--`-'                                                                
+```
+
+
+## Table of Contents
+1. [Introduction](#Introduction )
+2. [Problem Definition ](#Problem Definition )
+3. [Design and System Architecture ](#Design and System Architecture )
+4. [Evaluation](#Evaluation)
+
+
+## Introduction 
 
 ![Alt text](https://github.com/rbuwaENG/Cloud_Application/blob/main/knowledgekube_app%20image/flutter2.JPG?raw=true)
 
@@ -15,7 +42,7 @@ especially for mobile device users, while also serving as a groundbreaking model
 AI in education, establishing new benchmarks for efficiency and effectiveness.
  
  
-#Problem Definition 
+## Problem Definition 
 
 Students often encounter images in textbooks, articles, or classroom materials that contain 
 valuable information. Extracting text from these images is not only time-consuming but also 
@@ -26,7 +53,7 @@ a seamless transition from images to knowledge.
  
  
 
-#Design and System Architecture 
+## Design and System Architecture 
 
 Our mobile application features a client-server architecture with the server hosted in the cloud. 
 The client-side is developed using Flutter, providing cross-platform support for both Android 
@@ -36,6 +63,7 @@ Character Recognition (OCR) processing, communication with AI services, and user
 management. Data is securely stored in a cloud-based database, ensuring accessibility and 
 scalability. 
 
-#Evaluation
-![Alt text](image link)
-![Alt text](image link)
+## Evaluation
+
+![Alt text](https://github.com/rbuwaENG/Cloud_Application/blob/main/knowledgekube_app%20image/1698592817105.jpg?raw=true)
+![Alt text](https://github.com/rbuwaENG/Cloud_Application/blob/main/knowledgekube_app%20image/user2JPG.JPG?raw=true)
